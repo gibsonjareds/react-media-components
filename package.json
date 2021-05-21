@@ -1,0 +1,25 @@
+{
+  "name": "react-media-components",
+  "version": "0.0.1",
+  "description": "Components in react for recording and playing back videos.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gibsonjareds/react-media-components.git"
+  },
+  "keywords": [
+    "webrtc",
+    "video",
+    "recording",
+    "media"
+  ],
+  "author": "Jared Gibson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gibsonjareds/react-media-components/issues"
+  },
+  "homepage": "https://github.com/gibsonjareds/react-media-components#readme"
+}
