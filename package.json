@@ -4,7 +4,8 @@
   "description": "Components in react for recording and playing back videos.",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "npm run test"
+      "test": "npm run build && ./node_modules/build/mocha",
+      "build": ""
   },
   "repository": {
     "type": "git",
