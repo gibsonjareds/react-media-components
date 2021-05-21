@@ -4,8 +4,8 @@
   "description": "Components in react for recording and playing back videos.",
   "main": "./dist/index.js",
   "scripts": {
-      "test": "npm run build && ./node_modules/.bin/mocha",
-      "build": "./node_modules/.bin/babel src --presets=@babel/preset-env,@babel/preset-react --out-dir dist"
+    "test": "npm run build && ./node_modules/.bin/mocha",
+    "build": "./node_modules/.bin/babel src --presets=@babel/preset-env,@babel/preset-react,@babel/preset-typescript --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -28,8 +28,8 @@
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
     "@babel/preset-react": "^7.13.13",
-    "chai": "^4.3.4",
-    "mocha": "^8.4.0",
+    "@cypress/react": "^5.8.0",
+    "cypress": "^7.3.0",
     "prettier": "2.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
