@@ -1,6 +1,13 @@
 {
-  "component": {
-    "testFiles": "**/*.test.{js,ts,jsx,tsx}",
-    "componentFolder": "src"
-  }
+    "component":{
+        "testFiles": "**/*.spec.*",
+      "componentFolder": "cypress/component",
+      "env":{
+          "RETRIES":0
+      },
+    "experimentalFetchPolyfill": true,
+    "chromeWebSecurity":false,
+    "defaultCommandTimeout":500,
+    "video": true
+    }
 }
