@@ -4,7 +4,8 @@
     "baseUrl": "../node_modules",
     "target": "es6",
     "lib": ["es5", "es6", "dom", "dom.iterable"],
-    "types": ["cypress"]
+      "types": ["cypress"],
+      "jsx": "react"
   },
     "include": ["**/*.ts", "**/*.tsx"]
 }

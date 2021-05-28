@@ -1,7 +1,7 @@
 {
     "component":{
         "testFiles": "**/*.spec.*",
-      "componentFolder": "cypress/component",
+      "componentFolder": "src/",
       "env":{
           "RETRIES":0
       },
