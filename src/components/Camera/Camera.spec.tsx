@@ -9,6 +9,6 @@ describe("Camera", ()=>{
         let className = "container";
         mount(<Camera className={className} />);
 
-        cy.get('[data-role=camera]').should('have.class', className);
+        cy.get('[data-cy=camera]').should('have.class', className);
     });
 });

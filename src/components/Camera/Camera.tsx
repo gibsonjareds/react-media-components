@@ -25,7 +25,7 @@ export default class Camera extends React.Component<CameraProps, CameraState> {
         }
     }
     render(){
-        return <div data-role="camera" className={this.props.className}>
+        return <div data-cy="camera" className={this.props.className}>
             {this.chooseStep()};
         </div>;
     }
