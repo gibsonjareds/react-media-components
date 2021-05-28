@@ -17,9 +17,16 @@ export default class Camera extends React.Component<CameraProps, CameraState> {
         mode:'none',
         step:'one'
     }
+    chooseStep(){
+        switch(this.state.step){
+            case 'one':
+            default:
+                return (<StepOne selectMode={mode =>{  this.setState({mode}); } } />);
+        }
+    }
     render(){
         return <div data-role="camera" className={this.props.className}>
-            <StepOne selectMode={mode =>{  this.setState({mode}); } } />
+            {this.chooseStep()};
         </div>;
     }
 }
